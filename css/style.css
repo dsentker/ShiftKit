@@ -3,7 +3,7 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; height: 0 }
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #333 }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 button, input, select, textarea { font-family: inherit; color: inherit; }
 body, h1, h2, h3, h4, h5, h6, p, li { margin: 0; padding: 0; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -125,9 +125,12 @@ td { vertical-align: top; }
 /* STYLES */
 body {
     font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #353535;
 }
 
-#main a {
+#main a,
+nav li {
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
     -o-transition: all .2s linear;
